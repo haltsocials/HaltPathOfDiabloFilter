@@ -1140,7 +1140,7 @@ Attribute[Date]: 2026/10/18
     // MAG
         // LEVEL <50
             ItemDisplay[(ARMOR) MAG CLVL<13]: %NAME% %WHITE%[%YELLOW%%PRICE%%WHITE%]
-            ItemDisplay[(CL4 OR CL5 OR CL6 OR WP11 OR WP12 OR WP13) MAG CLVL<80]: %NAME% %WHITE%[%YELLOW%%PRICE%%WHITE%]
+            ItemDisplay[(CL4 OR CL6 OR WP11 OR WP12 OR WP13) MAG CLVL<80]: %NAME% %WHITE%[%YELLOW%%PRICE%%WHITE%]
             ItemDisplay[(WEAPON OR ARMOR) (EXC OR ELT) MAG (CLVL>29 AND CLVL<50)]: %NAME% %WHITE%[%YELLOW%%PRICE%%WHITE%]
         // CIRCLET
             ItemDisplay[EQ7 MAG !ID FILTERLVL=1]: %NAME%  
