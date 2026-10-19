@@ -1,7 +1,7 @@
 Attribute[Author]: Halt 
-Attribute[Name]: Path of Diablo Loot Filter
+Attribute[Name]: PathOFDiabloFilter
 Attribute[Version]: #1
-Attribute[Date]: 2026/09/28
+Attribute[Date]: 2026/10/18
 
 // FILTER LEVELS
     // Basic ladder progression and leveling. Shows items for leveling alts
@@ -918,7 +918,7 @@ Attribute[Date]: 2026/09/28
                 ItemDisplay[((SKILL("Summon Grizzly")=3 AND (SKILL("Summon Dire Wolf")=3 OR SKILL("Oak Sage")=3 OR SKILL("Heart of Wolverine")=3  OR SKILL("Maul")=3)) OR (SKILL("Hurricane")=3 AND SKILL("Armageddon")=3) OR (SKILL("Tornado")=3 AND SKILL("Hurricane")=3) OR (SKILL("Hurricane")=3 AND SK240=3) OR (SKILL("Summon Dire Wolf")=3 AND SKILL("Summon Grizzly")=3 AND (SKILL("Oak Sage")=3 OR SKILL("Heart of Wolverine")=3  OR SKILL("Maul")=3)) OR (SKILL("Heart of Wolverine")=3 AND SKILL("Oak Sage")=3))]: %DGREEN%%NAME%{%NAME%}<<MID>>
                 ItemDisplay[((SKILL("Summon Grizzly")=3 AND (SKILL("Summon Dire Wolf")>0 OR SKILL("Oak Sage")>0 OR SKILL("Maul")>0)) OR (SKILL("Hurricane")=3 AND SKILL("Armageddon")=3) OR (SKILL("Tornado")=3 AND SKILL("Hurricane")=3) OR (SKILL("Hurricane")=3 AND SK240=3) OR (SKILL("Summon Dire Wolf")=3 AND SKILL("Summon Grizzly")>0 AND (SKILL("Oak Sage")>0 OR SKILL("Heart of Wolverine")>0  OR SKILL("Maul")>0)) OR (SKILL("Heart of Wolverine")=3 AND SKILL("Oak Sage")=3)) FILTERLVL<4]: %DGREEN%%NAME%{%NAME%}<<MID>>
                 ItemDisplay[(SKILL("Tornado")=3 OR SKILL("Summon Grizzly")=3 OR SKILL("Hurricane")=3 OR SKILL("Shock Wave")=3 OR SKILL("Rabies")=3) FILTERLVL<4]: %NAME%{%NAME%}<<LOW>>
-                ItemDisplay[(SKILL("Twister")>2 OR SKILL("Armageddon")>2 OR SKILL("Heart of Wolverine")>2 OR SKILL("Oak Sage")>2 OR SKILL("Summon Dire Wolf")>2 OR SKILL("Raven")>2 OR SKILL("Maul")>2)  FILTERLVL=1]: %NAME%{%NAME%}
+                ItemDisplay[(SKILL("Twister")>2 OR SKILL("Armageddon")>2 OR SKILL("Heart of Wolverine")>2 OR SKILL("Oak Sage")>2 OR SKILL("Summon Dire Wolf")>2 OR SKILL("Raven")>2 OR SKILL("Maul")>2 OR SKILL("Rabies")>2)  FILTERLVL=1]: %NAME%{%NAME%}
             EndIf[]
         // BARBARIAN
             EnableIf[CL2 !ETH NMAG !RW !SOCK=1 ILVL>25]
@@ -1028,7 +1028,7 @@ Attribute[Date]: 2026/09/28
         ItemDisplay[(WP12 OR CL4) (NMAG OR MAG OR RARE) !RW SKILL("Teeth")=3 REQLEVEL=1 FILTERLVL<4]: %WHITE%%NAME%{%NAME%} <<LEVEL>> // Necro Item
         ItemDisplay[CL2 !ETH NMAG !RW !SOCK=1 REQLEVEL<60 SKILL("War Cry")=3 FILTERLVL<4]: %NAME%{%NAME%}<<LEVEL>> // Barb Item
         ItemDisplay[(WP13) (NMAG OR MAG) !RW REQLEVEL<12 SKILL("Holy Fire")=3 FILTERLVL<4]: %WHITE%%NAME%{%NAME%} <<LEVEL>> // Paladin Item
-        ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 REQLEVEL<19 (SKILL("Fissure")>3  OR SKILL("Firestorm")>3 OR SKILL("Raven")>3) FILTERLVL<4]: %NAME%{%NAME%}<<LEVEL>> // Druid Item
+        ItemDisplay[CL1 !ETH NMAG !RW !SOCK=1 (SKILL("Fissure")=3  OR SKILL("Firestorm")=3 OR SKILL("Raven")=3 OR SKILL("Rabies")=3 SKILL("Poison Creeper")=3) FILTERLVL<4]: %NAME%{%NAME%}<<LEVEL>> // Druid Item
         ItemDisplay[(wsp) NMAG !RW SOCK=4 ILVL<86]:%GRAY%%NAME%{%NAME%}<<LEVEL>> //Holy Thunder Base
         ItemDisplay[(lbw) NMAG !RW SOCK=4 ILVL<86]:%GRAY%%NAME%{%GRAY%Harmony:%GOLD%[Tir]+[Ith]+[Sol]+[Ko]%NL%%NAME%}<<LEVEL>> //Harmony Base (held)
         ItemDisplay[(WP8 OR WP7) EXC ETH SOCK=4 !RW NMAG FILTERLVL<4]: %GRAY%%NAME%{%NAME%}<<LEVEL>> //Insight Base
@@ -1036,8 +1036,8 @@ Attribute[Date]: 2026/09/28
         // ACTIVE LEVEL
         ItemDisplay[(NMAG OR MAG OR RARE) !RW (WP11 OR CL6) PLRCLASS(SORCERESS) CLVL<25 (SKILL("Frost Nova")>0 OR SKILL("Charged Bolt")>0)]:%WHITE%%NAME%{%NAME%}<<LEVEL>> // Sorc Item
         ItemDisplay[(WP12 OR CL4) (NMAG OR MAG OR RARE) PLRCLASS(NECROMANCER) !RW CLVL<25 (SKILL("Teeth")>0 OR SKILL("Hemorrhage")>0)]: %WHITE%%NAME%{%NAME%} <<LEVEL>> // Necro Item
-        ItemDisplay[CL4 (MAG OR RARE) PLRCLASS(NECROMANCER) !ID CLVL<81]: %BASENAME%{%NAME%} <<LEVEL>> // Necro Item
-        ItemDisplay[CL1 !ETH (NMAG OR MAG OR RARE) PLRCLASS(DRUID) !RW CLVL<28 (SKILL("Fissure")>0  OR SKILL("Firestorm")>0 OR SKILL("Raven")>0)]: %NAME%{%NAME%}<<LEVEL>> // Druid Item
+        ItemDisplay[CL4 (MAG OR RARE) PLRCLASS(NECROMANCER) !ID CLVL<81]: %ITEMNAME%{%NAME%} <<LEVEL>> // Necro Item
+        ItemDisplay[CL1 !ETH (NMAG OR MAG OR RARE) PLRCLASS(DRUID) !RW CLVL<28 (SKILL("Fissure")>0  OR SKILL("Firestorm")>0 OR SKILL("Raven")>0 OR SKILL("Poison Creeper")>0)]: %NAME%{%NAME%}<<LEVEL>> // Druid Item
         ItemDisplay[(WP13) (NMAG OR MAG) !RW CLVL<25 PLRCLASS(PALADIN) SKILL("Holy Fire")>0]: %WHITE%%NAME%{%NAME%} <<LEVEL>> // Paladin Item
         ItemDisplay[EQ1 !ETH NMAG !RW CLVL<17 SOCK=2]: %GRAY%%NAME%{%NAME%}<<LEVEL>> //Lore/Sapphire Base
         ItemDisplay[(qui OR lea OR hla OR stu) !ETH NMAG !RW CLVL<17 SOCK=2]: %GRAY%%NAME%{%GRAY%Stealth:%GOLD%[Tal]+[Eth]%NAME%}<<LEVEL>> //Stealth/Sapphire Base
@@ -1186,7 +1186,7 @@ Attribute[Date]: 2026/09/28
     // SET
         EnableIf[SET]
             ItemDisplay[!ID (xhm OR paf OR 7qr OR xtb OR uar OR xmg OR uth OR amu)]: %NL%%GREEN%%NAME%%NL%%SPACE%<<HIGH>>
-            ItemDisplay[(uh9 OR utc OR ne9 OR ulg OR oba OR xul OR 6cs) !ID FILTERLVL<4]: %GREEN%%NAME%<<LOW>>
+            ItemDisplay[(uh9 OR utc OR ne9 OR ulg OR oba OR xul OR 6cs OR ult) !ID FILTERLVL<4]: %GREEN%%NAME%<<LOW>>
             ItemDisplay[(hgl OR tow OR hbl OR hbt OR gth OR ghm OR mbl OR mbt OR gsc OR sbr OR rin) !ID FILTERLVL=1]: %GREEN%%NAME%{%WHITE%Leveling item}<<LEVEL>>
             ItemDisplay[!ID FILTERLVL=1]: %NAME% 
             ItemDisplay[ID]: %NAME%%NL%%GREEN%%ITEMNAME% 
@@ -1200,7 +1200,7 @@ Attribute[Date]: 2026/09/28
             // HIGH VALUE
                 ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9 OR nea) !ID]: %NL%%GOLD%✠✠✠  %NAME%  ✠✠✠%NL%%SPACE%<<HIGH>>
             // MID VALUE
-                ItemDisplay[(xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
+                ItemDisplay[(xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
                 //ItemDisplay[(tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra) !ID FILTERLVL<4]: %NL%%GOLD%✠  %NAME%  ✠%NL%%SPACE%<<MID>>
             // LEVEL
                 ItemDisplay[(xap OR stu OR skp OR bsh OR gth OR 7p7 OR gts) !ID FILTERLVL=1]: %GOLD%%NAME%{%WHITE%Leveling item}<<LEVEL>>
