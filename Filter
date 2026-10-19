@@ -1036,7 +1036,8 @@ Attribute[Date]: 2026/10/18
         // ACTIVE LEVEL
         ItemDisplay[(NMAG OR MAG OR RARE) !RW (WP11 OR CL6) PLRCLASS(SORCERESS) CLVL<25 (SKILL("Frost Nova")>0 OR SKILL("Charged Bolt")>0)]:%WHITE%%NAME%{%NAME%}<<LEVEL>> // Sorc Item
         ItemDisplay[(WP12 OR CL4) (NMAG OR MAG OR RARE) PLRCLASS(NECROMANCER) !RW CLVL<25 (SKILL("Teeth")>0 OR SKILL("Hemorrhage")>0)]: %WHITE%%NAME%{%NAME%} <<LEVEL>> // Necro Item
-        ItemDisplay[CL4 (MAG OR RARE) PLRCLASS(NECROMANCER) !ID CLVL<81]: %ITEMNAME%{%NAME%} <<LEVEL>> // Necro Item
+        ItemDisplay[CL4 MAG PLRCLASS(NECROMANCER) !ID ILVL<86]: %BLUE%%NAME%{%NAME%} <<LEVEL>> // Necro Item
+        ItemDisplay[CL4 RARE PLRCLASS(NECROMANCER) !ID ILVL<86]: %YELLOW%%NAME%{%NAME%} <<LEVEL>> // Necro Item
         ItemDisplay[CL1 !ETH (NMAG OR MAG OR RARE) PLRCLASS(DRUID) !RW CLVL<28 (SKILL("Fissure")>0  OR SKILL("Firestorm")>0 OR SKILL("Raven")>0 OR SKILL("Poison Creeper")>0)]: %NAME%{%NAME%}<<LEVEL>> // Druid Item
         ItemDisplay[(WP13) (NMAG OR MAG) !RW CLVL<25 PLRCLASS(PALADIN) SKILL("Holy Fire")>0]: %WHITE%%NAME%{%NAME%} <<LEVEL>> // Paladin Item
         ItemDisplay[EQ1 !ETH NMAG !RW CLVL<17 SOCK=2]: %GRAY%%NAME%{%NAME%}<<LEVEL>> //Lore/Sapphire Base
