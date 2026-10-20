@@ -1,5 +1,5 @@
 Attribute[Author]: Halt 
-Attribute[Name]: PathOFDiabloFilter
+Attribute[Name]: PathOfDiabloFilter - Halt
 Attribute[Version]: #1
 Attribute[Date]: 2026/10/18
 
@@ -347,7 +347,7 @@ Attribute[Date]: 2026/10/18
     // DRUID
         EnableIf[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW)]
             //START
-            ItemDisplay[(CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0 OR SK233>0 OR SK234>0 OR SK225>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
+            ItemDisplay[(CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0 OR SK233>0 OR SK234>0 OR SK225>0 OR SK144>0)]: %NAME%%NL%%GOLD%[%CONTINUE%
             //CLASS SKILL
             ItemDisplay[CLSK5>0]: %NAME%%WHITE%+%CSKILLS(DRU)%%GOLD%Druid %CONTINUE%
             // TAB SKILL
@@ -368,9 +368,10 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[SKILL("Raven")>0]: %NAME%%WHITE%+%SKILL(221)%%DGREEN%Raven%CONTINUE%
                 ItemDisplay[SKILL("Maul")>0]: %NAME%%WHITE%+%SKILL(233)%%DGREEN%Maul%CONTINUE%
                 ItemDisplay[SKILL("Firestorm")>0]: %NAME%%WHITE%+%SKILL(225)%%DGREEN%Firestorm%CONTINUE%
-                ItemDisplay[SKILL("Fissure")>0]: %NAME%%WHITE%+%SKILL(234)%%DGREEN%Fissure%CONTINUE%                                                
+                ItemDisplay[SKILL("Fissure")>0]: %NAME%%WHITE%+%SKILL(234)%%DGREEN%Fissure%CONTINUE%       
+                ItemDisplay[SKILL("Poison Creeper")>0]: %NAME%%WHITE%+%SKILL(144)%%DGREEN%Poison Creeper%CONTINUE%                                             
             // END
-            ItemDisplay[(CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0 OR SK233>0 OR SK234>0 OR SK225>0)]: %NAME%%GOLD%]%CONTINUE%
+            ItemDisplay[(CLSK5>0 OR TABSK40>0 OR TABSK41>0 OR TABSK42>0 OR SK240>0 OR SK245>0 OR SK250>0 OR SK249>0 OR SK238>0 OR SK243>0 OR SK236>0 OR SK226>0 OR SK237>0 OR SK247>0 OR SK221>0 OR SK233>0 OR SK234>0 OR SK225>0 OR SK144>0)]: %NAME%%GOLD%]%CONTINUE%
         EndIf[]
     // ASSASIN
         EnableIf[(NMAG OR MAG OR CRAFT OR RARE) !(cm3 OR RW)]
@@ -1201,7 +1202,7 @@ Attribute[Date]: 2026/10/18
             // HIGH VALUE
                 ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9 OR nea) !ID]: %NL%%GOLD%✠✠✠  %NAME%  ✠✠✠%NL%%SPACE%<<HIGH>>
             // MID VALUE
-                ItemDisplay[(xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
+                ItemDisplay[(xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb OR xow) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
                 //ItemDisplay[(tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra) !ID FILTERLVL<4]: %NL%%GOLD%✠  %NAME%  ✠%NL%%SPACE%<<MID>>
             // LEVEL
                 ItemDisplay[(xap OR stu OR skp OR bsh OR gth OR 7p7 OR gts) !ID FILTERLVL=1]: %GOLD%%NAME%{%WHITE%Leveling item}<<LEVEL>>
