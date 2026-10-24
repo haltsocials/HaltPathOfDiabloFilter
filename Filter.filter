@@ -805,7 +805,7 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[crs SOCK=4]: %NAME%{%GRAY%Spirit:%GOLD%[Tal]+[Thul]+[Ort]+[Amn]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[crs SOCK=5]: %NAME%{%GRAY%Call to Arms:%GOLD%[Amn]+[Ral]+[Mal]+[Ist]+[Ohm]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR ) SOCK=3]: %NAME%{%GRAY%Lawbringer:%GOLD%[Amn]+[Lem]+[Ko]%NL%%GRAY%Plague:%GOLD%[Cham]+[Fal]+[Um]%NL%%NAME%}%CONTINUE%  
-                ItemDisplay[7cr SOCK=4]: %NAME%{%GRAY%Passion:%GOLD%[Dol]+[Ort]+[Eld]+[Lem]%NL%%NAME%}%CONTINUE%  
+                ItemDisplay[ SOCK=4]: %NAME%{%GRAY%Passion:%GOLD%[Dol]+[Ort]+[Eld]+[Lem]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[7cr SOCK=5]: %NAME%{%GRAY%Grief:%GOLD%[Eth]+[Tir]+[Lo]+[Mal]+[Ral]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[7cr SOCK=6]: %NAME%{%GRAY%Silence:%GOLD%[Dol]+[Eld]+[Hel]+[Ist]+[Tir]+[Vex]%NL%%GRAY%Last Wish:%GOLD%[Jah]+[Mal]+[Jah]+[Sur]+[Jah]+[Ber]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) SOCK=4]: %NAME%{%GRAY%Oath:%GOLD%[Shael]+[Pul]+[Mal]+[Lum]%NL%%NAME%}%CONTINUE%  
@@ -819,8 +819,9 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[crs (SOCK=3 OR SOCK=4 OR SOCK=5) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
                 ItemDisplay[7cr SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NL%%SPACE%<<HIGH>> 
                 ItemDisplay[7cr SOCK=0 ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
-                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
-                ItemDisplay[7cr (SOCK=0 OR SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%} 
+                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%}
+                ItemDisplay[7cr (SOCK=0 OR SOCK=5) FILTERLVL=1]: %NAME%{%NAME%}<<LOW>> 
+                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%} 
                 ItemDisplay[7gd !ETH (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
             // SWORD ALL
                 ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) ETH SOCK=4 ED=15]: %NL%%NAME%{%NAME%}%NL%%SPACE%<<MID>>  
