@@ -164,7 +164,7 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[(buc OR xuc OR dgr OR dir OR 9dg OR 9di OR 7dg OR 7di OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%%GOLD%1S}%CONTINUE% // Runes/Gems _1
                 ItemDisplay[ILVL<26 (wst OR 8ws OR 6ws)]: %NAME%{%NAME%5S}%CONTINUE% // ILVL<26 Runes/Gems _5
                 ItemDisplay[ILVL<26 (2ax OR mpi OR wax OR bax OR btx OR gax OR gix OR 92a OR 9mp OR 9wa OR 9ba OR 9bt OR 9ga OR 9gi OR 72a OR 7mp OR 7wa OR 7ba OR 7bt OR 7ga OR 7gi)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL<26 Runes/Gems _4
-                ItemDisplay[ILVL<26 (gth OR ful OR aar OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR CL3 OR crs OR bsd OR lsd OR clm OR gis OR bsw OR flb OR gsd OR 9cr OR 9bs OR 9ls OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR  OR 7bs OR 7ls OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm OR wsp OR 9ws OR 7ws OR tri OR brn OR spt OR pik OR 9tr OR 9br OR 9st OR 9p9 OR 7tr OR 7br OR 7st OR 7p7 OR vou OR scy OR pax OR hal OR wsc OR 9vo OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc OR WP9 OR WP10 OR uit OR uow OR uts OR am3 OR am4 OR am8 OR am9 OR amd OR ame) !(sbw OR 8sb OR 6sb OR lxb OR 8lx OR 6lx)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL<26 Runes/Gems _3
+                ItemDisplay[ILVL<26 (gth OR ful OR aar OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR CL3 OR crs OR bsd OR lsd OR clm OR gis OR bsw OR flb OR gsd OR 9cr OR 9bs OR 9ls OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR 7cr OR 7bs OR 7ls OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm OR wsp OR 9ws OR 7ws OR tri OR brn OR spt OR pik OR 9tr OR 9br OR 9st OR 9p9 OR 7tr OR 7br OR 7st OR 7p7 OR vou OR scy OR pax OR hal OR wsc OR 9vo OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc OR WP9 OR WP10 OR uit OR uow OR uts OR am3 OR am4 OR am8 OR am9 OR amd OR ame) !(sbw OR 8sb OR 6sb OR lxb OR 8lx OR 6lx)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL<26 Runes/Gems _3
                 ItemDisplay[ILVL<26 (ghm OR msk OR crn OR xhm OR xsk OR xrn OR uhm OR usk OR urn OR uh9 OR CL1 OR CL2 OR kri OR 9kr OR 7kr OR clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf)]: %NAME%{%NAME%2S}%CONTINUE% // ILVL<26 Runes/Gems _2
                 ItemDisplay[ILVL<26 (ci0 OR ci1 OR ci2 OR ci3)]: %NAME%{%NAME%1S}%CONTINUE% // ILVL<26 Runes/Gems _1
                 ItemDisplay[ILVL>25 (wst OR 8ws OR 6ws)]: %NAME%{%NAME%6S}%CONTINUE% // ILVL>25 Runes/Gems _6
@@ -173,10 +173,10 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[ILVL>25 (CL1 OR CL2 OR kri OR 9kr OR 7kr OR clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL>25 Runes/Gems _3
                 ItemDisplay[ILVL>25 (ci0 OR ci1)]: %NAME%{%NAME%2S}%CONTINUE% // ILVL>25 Runes/Gems _2
                 ItemDisplay[ILVL<41 ILVL>25 (mpi OR wax OR gax OR gix OR 9mp OR 9wa OR 9ga OR 9gi OR 7mp OR 7wa OR 7ga OR 7gi)]: %NAME%{%NAME%5S}%CONTINUE% // ILVL<41 ILVL>25 Runes/Gems _5
-                ItemDisplay[ILVL<41 ILVL>25 !WP5 (crs OR flb OR gsd OR 9cr OR 9fb OR 9gd OR  OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR brn OR spt OR pik OR 9br OR 9st OR 9p9 OR 7br OR 7st OR 7p7 OR scy OR pax OR hal OR wsc OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7s8 OR 7pa OR 7h7 OR 7wc OR lbw OR sbb OR lbb OR swb OR lwb OR 8lb OR 8s8 OR 8l8 OR 8sw OR 8lw OR 6lb OR 6s7 OR 6l7 OR 6sw OR 6lw OR hxb OR rxb OR 8hx OR 8rx OR 6hx OR 6rx OR CL7)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL<41 ILVL>25 Runes/Gems _4
+                ItemDisplay[ILVL<41 ILVL>25 !WP5 (crs OR flb OR gsd OR 9cr OR 9fb OR 9gd OR 7cr OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR brn OR spt OR pik OR 9br OR 9st OR 9p9 OR 7br OR 7st OR 7p7 OR scy OR pax OR hal OR wsc OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7s8 OR 7pa OR 7h7 OR 7wc OR lbw OR sbb OR lbb OR swb OR lwb OR 8lb OR 8s8 OR 8l8 OR 8sw OR 8lw OR 6lb OR 6s7 OR 6l7 OR 6sw OR 6lw OR hxb OR rxb OR 8hx OR 8rx OR 6hx OR 6rx OR CL7)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL<41 ILVL>25 Runes/Gems _4
                 ItemDisplay[ILVL<41 ILVL>25 (uit OR uow OR uts)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL<41 ILVL>25 Runes/Gems _3
                 ItemDisplay[ILVL<41 ILVL>25 (ghm OR crn OR msk OR xhm OR xrn OR xsk OR uhm OR urn OR usk OR uh9 OR ci2 OR ci3)]: %NAME%{%NAME%2S}%CONTINUE% // ILVL<41 ILVL>25 Runes/Gems _2
-                ItemDisplay[ILVL>40 (crs OR gsd OR 9cr OR 9gd OR  OR 7gd OR mpi OR wax OR gax OR gix OR 9mp OR 9wa OR 9ga OR 9gi OR 7mp OR 7wa OR 7ga OR 7gi OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR spt OR pik OR 9st OR 9p9 OR 7st OR 7p7 OR hal OR wsc OR 9h9 OR 9wc OR 7h7 OR 7wc OR lwb OR 8lw OR 6lw OR hxb OR 8hx OR 6hx OR am3 OR am4 OR am8 OR am9 OR amd OR ame OR lbb OR 8l8 OR 6l7)]: %NAME%{%NAME%6S}%CONTINUE% // ILVL>40 Runes/Gems _6
+                ItemDisplay[ILVL>40 (crs OR gsd OR 9cr OR 9gd OR 7cr OR 7gd OR mpi OR wax OR gax OR gix OR 9mp OR 9wa OR 9ga OR 9gi OR 7mp OR 7wa OR 7ga OR 7gi OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR spt OR pik OR 9st OR 9p9 OR 7st OR 7p7 OR hal OR wsc OR 9h9 OR 9wc OR 7h7 OR 7wc OR lwb OR 8lw OR 6lw OR hxb OR 8hx OR 6hx OR am3 OR am4 OR am8 OR am9 OR amd OR ame OR lbb OR 8l8 OR 6l7)]: %NAME%{%NAME%6S}%CONTINUE% // ILVL>40 Runes/Gems _6
                 ItemDisplay[ILVL>40 (flb OR 9fb OR 7fb OR fla OR 9fl OR 7fl OR brn OR 9br OR 7br OR scy OR pax OR 9s8 OR 9pa OR 7s8 OR 7pa OR lbw OR sbb OR swb OR 8lb OR 8s8 OR 8sw OR 6lb OR 6s7 OR 6sw OR rxb OR 8rx OR 6rx OR am1 OR am2 OR am6 OR am7 OR amb OR amc)]: %NAME%{%NAME%5S}%CONTINUE% // ILVL>40 Runes/Gems _5
                 ItemDisplay[ILVL>40 (uit OR uow OR uts)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL>40 Runes/Gems _4
                 ItemDisplay[ILVL>40 (msk OR xsk OR usk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL>40 Runes/Gems _3
@@ -191,7 +191,7 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[(buc OR xuc OR dgr OR dir OR 9dg OR 9di OR 7dg OR 7di OR wnd OR 9wn OR ywn)]: %NAME%{%NAME%%GOLD%1S}%CONTINUE% // LQ _1
                 ItemDisplay[ILVL<26 (wst OR 8ws OR 6ws)]: %NAME%{%NAME%5S}%CONTINUE% // ILVL<26 LQ _5
                 ItemDisplay[ILVL<26 (2ax OR mpi OR wax OR bax OR btx OR gax OR gix OR 92a OR 9mp OR 9wa OR 9ba OR 9bt OR 9ga OR 9gi OR 72a OR 7mp OR 7wa OR 7ba OR 7bt OR 7ga OR 7gi)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL<26 LQ _4
-                ItemDisplay[ILVL<26 (gth OR ful OR aar OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR CL3 OR crs OR bsd OR lsd OR clm OR gis OR bsw OR flb OR gsd OR 9cr OR 9bs OR 9ls OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR  OR 7bs OR 7ls OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm OR wsp OR 9ws OR 7ws OR tri OR brn OR spt OR pik OR 9tr OR 9br OR 9st OR 9p9 OR 7tr OR 7br OR 7st OR 7p7 OR vou OR scy OR pax OR hal OR wsc OR 9vo OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc OR WP9 OR WP10 OR uit OR uow OR uts OR am3 OR am4 OR am8 OR am9 OR amd OR ame) !(sbw OR 8sb OR 6sb OR lxb OR 8lx OR 6lx)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL<26 LQ _3
+                ItemDisplay[ILVL<26 (gth OR ful OR aar OR xth OR xul OR xar OR uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR CL3 OR crs OR bsd OR lsd OR clm OR gis OR bsw OR flb OR gsd OR 9cr OR 9bs OR 9ls OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR 7cr OR 7bs OR 7ls OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm OR wsp OR 9ws OR 7ws OR tri OR brn OR spt OR pik OR 9tr OR 9br OR 9st OR 9p9 OR 7tr OR 7br OR 7st OR 7p7 OR vou OR scy OR pax OR hal OR wsc OR 9vo OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7wc OR WP9 OR WP10 OR uit OR uow OR uts OR am3 OR am4 OR am8 OR am9 OR amd OR ame) !(sbw OR 8sb OR 6sb OR lxb OR 8lx OR 6lx)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL<26 LQ _3
                 ItemDisplay[ILVL<26 (ghm OR msk OR crn OR xhm OR xsk OR xrn OR uhm OR usk OR urn OR uh9 OR CL1 OR CL2 OR kri OR 9kr OR 7kr OR clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf)]: %NAME%{%NAME%2S}%CONTINUE% // ILVL<26 LQ _2
                 ItemDisplay[ILVL<26 (ci0 OR ci1 OR ci2 OR ci3)]: %NAME%{%NAME%1S}%CONTINUE% // ILVL<26 LQ _1
                 ItemDisplay[ILVL>25 (wst OR 8ws OR 6ws)]: %NAME%{%NAME%6S}%CONTINUE% // ILVL>25 LQ _6
@@ -200,10 +200,10 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[ILVL>25 (CL1 OR CL2 OR kri OR 9kr OR 7kr OR clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR ob5 OR oba OR obf)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL>25 LQ _3
                 ItemDisplay[ILVL>25 (ci0 OR ci1)]: %NAME%{%NAME%2S}%CONTINUE% // ILVL>25 LQ _2
                 ItemDisplay[ILVL<41 ILVL>25 (mpi OR wax OR gax OR gix OR 9mp OR 9wa OR 9ga OR 9gi OR 7mp OR 7wa OR 7ga OR 7gi)]: %NAME%{%NAME%5S}%CONTINUE% // ILVL<41 ILVL>25 LQ _5
-                ItemDisplay[ILVL<41 ILVL>25 !WP5 (crs OR flb OR gsd OR 9cr OR 9fb OR 9gd OR  OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR brn OR spt OR pik OR 9br OR 9st OR 9p9 OR 7br OR 7st OR 7p7 OR scy OR pax OR hal OR wsc OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7s8 OR 7pa OR 7h7 OR 7wc OR lbw OR sbb OR lbb OR swb OR lwb OR 8lb OR 8s8 OR 8l8 OR 8sw OR 8lw OR 6lb OR 6s7 OR 6l7 OR 6sw OR 6lw OR hxb OR rxb OR 8hx OR 8rx OR 6hx OR 6rx OR CL7)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL<41 ILVL>25 LQ _4
+                ItemDisplay[ILVL<41 ILVL>25 !WP5 (crs OR flb OR gsd OR 9cr OR 9fb OR 9gd OR 7cr OR 7fb OR 7gd OR fla OR 9fl OR 7fl OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR brn OR spt OR pik OR 9br OR 9st OR 9p9 OR 7br OR 7st OR 7p7 OR scy OR pax OR hal OR wsc OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7s8 OR 7pa OR 7h7 OR 7wc OR lbw OR sbb OR lbb OR swb OR lwb OR 8lb OR 8s8 OR 8l8 OR 8sw OR 8lw OR 6lb OR 6s7 OR 6l7 OR 6sw OR 6lw OR hxb OR rxb OR 8hx OR 8rx OR 6hx OR 6rx OR CL7)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL<41 ILVL>25 LQ _4
                 ItemDisplay[ILVL<41 ILVL>25 (uit OR uow OR uts)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL<41 ILVL>25 LQ _3
                 ItemDisplay[ILVL<41 ILVL>25 (ghm OR crn OR msk OR xhm OR xrn OR xsk OR uhm OR urn OR usk OR uh9 OR ci2 OR ci3)]: %NAME%{%NAME%2S}%CONTINUE% // ILVL<41 ILVL>25 LQ _2
-                ItemDisplay[ILVL>40 (crs OR gsd OR 9cr OR 9gd OR  OR 7gd OR mpi OR wax OR gax OR gix OR 9mp OR 9wa OR 9ga OR 9gi OR 7mp OR 7wa OR 7ga OR 7gi OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR spt OR pik OR 9st OR 9p9 OR 7st OR 7p7 OR hal OR wsc OR 9h9 OR 9wc OR 7h7 OR 7wc OR lwb OR 8lw OR 6lw OR hxb OR 8hx OR 6hx OR am3 OR am4 OR am8 OR am9 OR amd OR ame OR lbb OR 8l8 OR 6l7)]: %NAME%{%NAME%6S}%CONTINUE% // ILVL>40 LQ _6
+                ItemDisplay[ILVL>40 (crs OR gsd OR 9cr OR 9gd OR 7cr OR 7gd OR mpi OR wax OR gax OR gix OR 9mp OR 9wa OR 9ga OR 9gi OR 7mp OR 7wa OR 7ga OR 7gi OR mau OR gma OR 9m9 OR 9gm OR 7m7 OR 7gm OR spt OR pik OR 9st OR 9p9 OR 7st OR 7p7 OR hal OR wsc OR 9h9 OR 9wc OR 7h7 OR 7wc OR lwb OR 8lw OR 6lw OR hxb OR 8hx OR 6hx OR am3 OR am4 OR am8 OR am9 OR amd OR ame OR lbb OR 8l8 OR 6l7)]: %NAME%{%NAME%6S}%CONTINUE% // ILVL>40 LQ _6
                 ItemDisplay[ILVL>40 (flb OR 9fb OR 7fb OR fla OR 9fl OR 7fl OR brn OR 9br OR 7br OR scy OR pax OR 9s8 OR 9pa OR 7s8 OR 7pa OR lbw OR sbb OR swb OR 8lb OR 8s8 OR 8sw OR 6lb OR 6s7 OR 6sw OR rxb OR 8rx OR 6rx OR am1 OR am2 OR am6 OR am7 OR amb OR amc)]: %NAME%{%NAME%5S}%CONTINUE% // ILVL>40 LQ _5
                 ItemDisplay[ILVL>40 (uit OR uow OR uts)]: %NAME%{%NAME%4S}%CONTINUE% // ILVL>40 LQ _4
                 ItemDisplay[ILVL>40 (msk OR xsk OR usk OR uh9 OR ghm OR xhm OR uhm OR crn OR xrn OR urn OR ci2 OR ci3)]: %NAME%{%NAME%3S}%CONTINUE% // ILVL>40 LQ _3
@@ -804,8 +804,8 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[crs SOCK=3]: %NAME%{%GRAY%Crescent Moon:%GOLD%[Shael]+[Um]+[Tir]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[crs SOCK=4]: %NAME%{%GRAY%Spirit:%GOLD%[Tal]+[Thul]+[Ort]+[Amn]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[crs SOCK=5]: %NAME%{%GRAY%Call to Arms:%GOLD%[Amn]+[Ral]+[Mal]+[Ist]+[Ohm]%NL%%NAME%}%CONTINUE%  
-                ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR ) SOCK=3]: %NAME%{%GRAY%Lawbringer:%GOLD%[Amn]+[Lem]+[Ko]%NL%%GRAY%Plague:%GOLD%[Cham]+[Fal]+[Um]%NL%%NAME%}%CONTINUE%  
-                ItemDisplay[ SOCK=4]: %NAME%{%GRAY%Passion:%GOLD%[Dol]+[Ort]+[Eld]+[Lem]%NL%%NAME%}%CONTINUE%  
+                ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd OR 7cr) SOCK=3]: %NAME%{%GRAY%Lawbringer:%GOLD%[Amn]+[Lem]+[Ko]%NL%%GRAY%Plague:%GOLD%[Cham]+[Fal]+[Um]%NL%%NAME%}%CONTINUE%  
+                ItemDisplay[7cr SOCK=4]: %NAME%{%GRAY%Passion:%GOLD%[Dol]+[Ort]+[Eld]+[Lem]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[7cr SOCK=5]: %NAME%{%GRAY%Grief:%GOLD%[Eth]+[Tir]+[Lo]+[Mal]+[Ral]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[7cr SOCK=6]: %NAME%{%GRAY%Silence:%GOLD%[Dol]+[Eld]+[Hel]+[Ist]+[Tir]+[Vex]%NL%%GRAY%Last Wish:%GOLD%[Jah]+[Mal]+[Jah]+[Sur]+[Jah]+[Ber]%NL%%NAME%}%CONTINUE%  
                 ItemDisplay[(7ls OR 72h OR 7cm OR 7gs OR 7b7 OR 7fb OR 7gd) SOCK=4]: %NAME%{%GRAY%Oath:%GOLD%[Shael]+[Pul]+[Mal]+[Lum]%NL%%NAME%}%CONTINUE%  
@@ -819,7 +819,7 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[crs (SOCK=3 OR SOCK=4 OR SOCK=5) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
                 ItemDisplay[7cr SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NL%%SPACE%<<HIGH>> 
                 ItemDisplay[7cr SOCK=0 ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
-                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%}
+                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
                 ItemDisplay[7cr (SOCK=0 OR SOCK=5) FILTERLVL=1]: %NAME%{%NAME%}<<LOW>> 
                 ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%} 
                 ItemDisplay[7gd !ETH (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
@@ -1016,7 +1016,7 @@ Attribute[Date]: 2026/10/18
         ItemDisplay[TABSK16>2 SKILL("Hemorrhage")>2]:%NAME% %RED%[+6 Hemo]<<MID>> 
         ItemDisplay[(((TABSK16>1 OR CLSK2>1) SKILL("Hemorrhage")>2) OR (TABSK16>2 SK477>1))]: %NAME% %RED%[+5 Hemo]<<MID>>
         ItemDisplay[TABSK18>2 SKILL("Fire Golem")>2]: %NAME% %RED%[+6 Figo]<<MID>> 
-        ItemDisplay[(((TABSK18>1 OR CLSK2>1) SKILL("Fire Golem")>2) OR (TABSK16>2 SKILL("Fire Golem")>1))]: %NAME% %RED%[+5 Figo]<<MID>>
+        ItemDisplay[(((TABSK18>1 OR CLSK2>1) SKILL("Fire Golem")>2) OR (TABSK18>2 SKILL("Fire Golem")>1))]: %NAME% %RED%[+5 Figo]<<MID>>
         ItemDisplay[(TABSK18>0 OR CLSK2>0) SKILL("Fire Golem")>0 STAT338>0]: %NAME% %RED%[Figo?]<<MID>>
     EndIf[]
     // GAMBLE
@@ -1245,10 +1245,10 @@ Attribute[Date]: 2026/10/18
         EndIf[]
     // 2x4
         EnableIf[(gts OR xts OR uts OR wst OR 8ws OR 6ws) (NMAG OR MAG OR RARE) (!ID OR ID) !RW]
-            ItemDisplay[PRICE>34999 ILVL<86]: %WHITE%[2x3][%YELLOW%%PRICE%%WHITE%]
-            ItemDisplay[PRICE>19999 CLVL<50]: %WHITE%[2x3][%YELLOW%%PRICE%%WHITE%] 
-            ItemDisplay[PRICE>9999 CLVL<20]: %WHITE%[2x3][%YELLOW%%PRICE%%WHITE%] 
-            ItemDisplay[PRICE>3999 CLVL<8]: %WHITE%[2x3][%YELLOW%%PRICE%%WHITE%]
+            ItemDisplay[PRICE>34999 ILVL<86]: %WHITE%[2x4][%YELLOW%%PRICE%%WHITE%]
+            ItemDisplay[PRICE>19999 CLVL<50]: %WHITE%[2x4][%YELLOW%%PRICE%%WHITE%] 
+            ItemDisplay[PRICE>9999 CLVL<20]: %WHITE%[2x4][%YELLOW%%PRICE%%WHITE%] 
+            ItemDisplay[PRICE>3999 CLVL<8]: %WHITE%[2x4][%YELLOW%%PRICE%%WHITE%]
         EndIf[]
     // 1x4
         EnableIf[(WP11 OR glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts) (NMAG OR MAG OR RARE) (!ID OR ID) !RW]
