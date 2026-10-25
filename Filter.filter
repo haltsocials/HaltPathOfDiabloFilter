@@ -1203,7 +1203,7 @@ Attribute[Date]: 2026/10/18
             // HIGH VALUE
                 ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9 OR nea) !ID]: %NL%%GOLD%✠✠✠  %NAME%  ✠✠✠%NL%%SPACE%<<HIGH>>
             // MID VALUE
-                ItemDisplay[(xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb OR xow) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
+                ItemDisplay[(9fc OR xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb OR xow) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
                 //ItemDisplay[(tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra) !ID FILTERLVL<4]: %NL%%GOLD%✠  %NAME%  ✠%NL%%SPACE%<<MID>>
             // LEVEL
                 ItemDisplay[(xap OR stu OR skp OR bsh OR gth OR 7p7 OR gts) !ID FILTERLVL=1]: %GOLD%%NAME%{%WHITE%Leveling item}<<LEVEL>>
