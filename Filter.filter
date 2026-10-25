@@ -819,8 +819,7 @@ Attribute[Date]: 2026/10/18
                 ItemDisplay[crs (SOCK=3 OR SOCK=4 OR SOCK=5) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
                 ItemDisplay[7cr SOCK=5 ED=15]: %NL%%DGREEN%%NAME%{%NAME%}%NL%%SPACE%<<HIGH>> 
                 ItemDisplay[7cr SOCK=0 ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
-                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
-                ItemDisplay[7cr (SOCK=0 OR SOCK=5) FILTERLVL=1]: %NAME%{%NAME%}<<LOW>> 
+                ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) ED>9 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%}  
                 ItemDisplay[7cr (SOCK=3 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTERLVL=1]: %NAME%{%NAME%} 
                 ItemDisplay[7gd !ETH (SOCK=0 OR SOCK=6) ED=15 FILTERLVL<4]: %NAME%%BORDER(85,1)%{%NAME%} 
             // SWORD ALL
@@ -1203,7 +1202,7 @@ Attribute[Date]: 2026/10/18
             // HIGH VALUE
                 ItemDisplay[(rin OR amu OR xh9 OR uap OR ulm OR usk OR urn OR ci3 OR upl OR uar OR uit OR xtb OR ulc OR 6lw OR 7gw OR pa9 OR nea) !ID]: %NL%%GOLD%✠✠✠  %NAME%  ✠✠✠%NL%%SPACE%<<HIGH>>
             // MID VALUE
-                ItemDisplay[(9fc OR xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb OR xow) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
+                ItemDisplay[(9sp OR 9fc OR xmg OR tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra OR xea OR xhn OR xhb OR 6ws OR 9bs OR dgr OR xts OR 7cr OR 7s8 OR zlb OR zhb OR umc OR 9ls OR xvb OR xow) !ID]: %NL%%GOLD%✠✠  %NAME%  ✠✠%NL%%SPACE%<<MID>>
                 //ItemDisplay[(tgl OR xsh OR obc OR uhb OR xea OR baa OR uvb OR 6cs OR ama OR uow OR umb OR uvg OR utu OR xmb OR xlt OR xpl OR uui OR uvg OR ci2 OR dra) !ID FILTERLVL<4]: %NL%%GOLD%✠  %NAME%  ✠%NL%%SPACE%<<MID>>
             // LEVEL
                 ItemDisplay[(xap OR stu OR skp OR bsh OR gth OR 7p7 OR gts) !ID FILTERLVL=1]: %GOLD%%NAME%{%WHITE%Leveling item}<<LEVEL>>
