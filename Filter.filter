@@ -893,7 +893,7 @@ Attribute[Date]: 2026/10/18
             // RUNEWORD
                 ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SOCK=4]: %NAME%{%GRAY%Memory:%GOLD%[Lum]+[Io]+[Sol]+[Eth]%NL%%GRAY%Insight:%GOLD%[Ral]+[Tir]+[Tal]+[Sol]%NL%%NAME%}%CONTINUE%
             // BASE
-                ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=0 OR SOCK=4) FILTERLVL<4]: %DGREEN%%NAME%{%NAME%}
+                ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 (SOCK=0 OR SOCK=4) FILTERLVL<4]: %DGREEN%%NAME%{%NAME%}<<LOW>>
                 ItemDisplay[(8cs OR 8bs OR cst OR bst OR 6cs OR 6bs OR wst OR 8ws OR 6ws) SKILL("Energy Shield")=3 SKILL("Shiver Armor")>0  (SOCK=0 OR SOCK=4)]: %NL%%DGREEN%%NAME%{%NAME%}%NL%%SPACE%<<HIGH>>
                 ItemDisplay[(6cs OR 6bs OR 6ws) ETH !INF (SOCK=0 OR SOCK=4) ED=15]: %NL%%GOLD%[e] %GRAY%%NAME%{%NAME%}%NL%%SPACE%<<HIGH>>
                 ItemDisplay[(6cs OR 6bs OR 6ws) ETH !INF (SOCK=0 OR SOCK=4) ED>9 FILTERLVL<4]: %GOLD%[e] %GRAY%%NAME%{%NAME%}<<LOW>>
@@ -1049,7 +1049,7 @@ Attribute[Date]: 2026/10/18
         ItemDisplay[(WP8 OR WP7) NMAG !RW CLVL<25 SOCK=3]: %GRAY%%NAME%{%GRAY%Malice:%GOLD%[Ith]+[El]+[Eth]%NAME%}<<LEVEL>> //Malice/Gems 
         ItemDisplay[(6hb OR 6cb OR 6s7 OR 6lb OR 8hb OR 8cb OR 8s8 OR 8lb OR hbw OR lbw OR cbw OR sbb) NMAG !INF !RW SOCK=4 CLVL<60]: %GRAY%%NAME%{%NAME%}<<LEVEL>> //Insight Base (Bow)
         ItemDisplay[(WP7 OR WP8) !CL7 NMAG !INF !RW SOCK=4 CLVL<60]: %GRAY%%NAME%{%NAME%}<<LEVEL>> // Insight Base
-        Itemdisplay[(EQ6 OR EQ4) (EXC OR ELT) MAG !ETH !RW !CRAFT CLVL<80]:%BLUE%%NAME%{%GOLD% Caster Craft%}<<LEVEL>>
+        Itemdisplay[(EQ6 OR EQ4) (EXC OR ELT) MAG !ETH !RW !CRAFT CLVL<86]:%BLUE%%NAME%{%GOLD% Caster Craft%}<<LEVEL>>
     // !NMAG ITEM
         // CRAFTED
             EnableIf[CRAFTED !NMAG]
